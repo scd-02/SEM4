@@ -1,4 +1,4 @@
-public class MaxMInForm {
+public class MaxMinForm {
 
   // t(n)=O(n); s(n)=O(n)
   public static void maxMinForm1(int a[]) {
