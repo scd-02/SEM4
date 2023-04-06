@@ -8,12 +8,11 @@ public class ContiguousMaxSumOfPosAndNeg {
       if (currSum >= maxSum) {
         maxSum = currSum;
         start = tempStart;
-
+        end=i;
       }
       if (currSum < 0) {
         currSum = 0;
         tempStart = i + 1;
-        end = i - 1;
       }
     }
     for (int i = start; i <= end; i++) {
